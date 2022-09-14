@@ -1,0 +1,88 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Good morning", "Good afternoon", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hi", "Heya", "Hya"],
+         "responses": ["Hello! How can I help?", "Good to see you again! How can I help?", "Hey there! How can I help?"],
+         "context": [""]
+        },
+        {"tag": "courtesy_greting",
+         "patterns": ["How are you?", "Hi how are you?", "Hello how are you?", "Hola how are you?", "How are you doing?", "Hope you are doing well?", "Hello hope you are doing well?"],
+         "responses": ["Hello, I am great, how are you? How can I help you?", "Hello, I am good thank you, how are you? How can I help you?", "Hi, I am great, how are you? How can I help you?", "Hi, I am good thank you, how are you? How can I help you?", "Hi, good thank you, how are you? How can I help you?"],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["What is your name?", "What could I call you?", "What can I call you?", "What do your friends call you?", "Who are you?", "Tell me your name?"],
+         "responses": ["You can call me Floxi", "You may call me Floxi", "Call me Floxi"],
+         "context": [""]
+        },
+        {"tag": "real_name",
+         "patterns": ["What is your real name?", "What is your real name please?", "What's your real name?", "Tell me your real name?", "Your real name?", "Your real name please?"],
+         "responses": ["My name is Floxibeth", "Floxibeth", "My real name is Floxibeth"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["Help me", "Can you help me?", "I need help", "Do you help?", "Help", "I'm stuck, help me", "I'm stuck", "Can you please help me", "Do you like helping others"],
+         "responses": ["Yes, how may I help you?"],
+         "context": [""]
+        },
+        {"tag": "understand",
+         "patterns": ["Do you understand what I am saying", "Do you understand me", "Do you know what I am saying", "Do you get me", "Comprendo", "Know what I mean"],
+         "responses": ["Well I would not be a very clever AI if I did not would I?", "I read you loud and clear!", "I do in deed!"],
+         "context": [""]
+        },
+        {"tag": "shutup",
+         "patterns": ["Be quiet", "Shut up", "Stop talking", "Enough talking", "Please be quiet", "Quiet", "Shhh"],
+         "responses": ["I am sorry to disturb you", "Fine, sorry to disturb you", "OK, sorry to disturb you"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Good night", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day!", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure", "Anytime!"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through our platform 'Unbound' powered by Floxus Education!", "Offering support for 'Unbound' powered by Floxus Education!"],
+         "context": [""]
+        },
+        {"tag": "unbound",
+         "patterns": ["What is Unbound?", "Unbound platform", "Where is Unbound?", "How can Unbound help me?"],
+         "responses": ["Unbound is a new generation platform built to make everyone's learning experience complete. With a keen focus on building a Product Mindset and a series of Practical Projects and Challenges in different technologies to enhance the developer in you."],
+         "context": [""]
+        },
+        {"tag": "floxus",
+         "patterns": ["What is Floxus?", "What does Floxus do?", "How can Floxus help me?", "How is Floxus better than Udemy?", "How is Floxus better than Internshala?" ],
+         "responses": ["Floxus is a Tech-ed company focussing on the latest technology, covering a range of courses from Web development to Machine Learning delivered by experts in respective fields."],
+         "context": [""]
+        },
+        {"tag": "practical_projects",
+         "patterns": ["What are the practical projects?", "", "How to start with practical projects?", "What are the projects?", "How to start with any project?", "How to start working on a project?", "How to work on a project?", "What is a project?", "What are practical projects?" ],
+         "responses": ["Industry relevant projects from Web-development to Machine Learning, all on a planned path to bring out the brilliant developer in you! Simply go to the 'Explore Projects' section and select any project you find interesting. And click on 'Start Project' and voila you have started the project! Isn't that simple ;)"],
+         "context": [""]
+        },
+        {"tag": "intuitive_challenges",
+         "patterns": ["What are intuitive challenges?", "What is intuitive challenge?"],
+         "responses": ["These are challenges and hurdles that will not only test you, but would also immensely grow your intuition and problem solving skills. To start simply go to the 'Explore Challenges' section and select any challenge you find interesting. And click on 'Start Challenge' and voila you have started the challenge! Isn't that easy ;)"],
+         "context": [""]
+        },
+        {"tag": "live_challenges",
+         "patterns": ["What are live challenges", "", "List of live challenges", "How to start live challenges", "When will live challenges be opened", "When will live challenge start"],
+         "responses": ["These are specific challenges that would be live and timed out to help you learn to perform your best under pressure. Stay tuned with us for further updates on live challenges!"],
+         "context": [""]
+        },
+        {"tag": "profile_verification",
+         "patterns": ["How to complete my profile?"],
+         "responses": ["Click on 'Complete my profile' in the 'Home' page and fill the Education details, Projects and Experience to complete your profile"],
+         "context": [""]
+        }
+   ]
+}
